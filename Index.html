@@ -17,7 +17,7 @@
            <!--Initializing the carousel-->
            <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
                <div class="carousel-indicators">
-                   <!--Adding the buttons-->
+                   <!--Adding the buttons(indicators)-->
                    <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active"
                        current="true" aria-label="Farm Fresh Produc"></button>
                    </button>
@@ -41,6 +41,15 @@
                     <img src="/img/FreshApp.png" class="d-block w-100" alt="Use our app to shop">
                    </div>
                </div>
+               <!--Adding side indicators-->
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+               </button>
            </div>
 
        </div>
